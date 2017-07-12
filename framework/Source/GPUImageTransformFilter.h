@@ -16,4 +16,8 @@
 // sets the anchor point to top left corner
 @property(readwrite, nonatomic) BOOL anchorTopLeft;
 
+@property(readwrite, nonatomic) BOOL isPerformingStabilization;
+
+@property(readwrite, nonatomic) NSMutableArray *transformCoordinates;
+
 @end
